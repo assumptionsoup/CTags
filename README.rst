@@ -163,6 +163,24 @@ can be edited like any other ``.sublime-settings`` file
 
 The rest of the options are fairly self explanatory.
 
+Settings are also read from a project file::
+
+  {
+    "folders":[...],
+    "settings":{
+        ...
+        "CTags":
+        {
+          "opts":[...],
+          "debug":true,
+          ...
+        }
+    }
+  }
+
+While boolean options will be overridden, arrays and dictionaries (like
+'opts' or 'filters') will be merged.
+
 Support
 =======
 
