@@ -181,6 +181,15 @@ Settings are also read from a project file::
 While boolean options will be overridden, arrays and dictionaries (like
 'opts' or 'filters') will be merged.
 
+Auto Complete Setting
+========
+Windows
+-------
+* Download the `binaries` from the `Gawk for Windows`_ site.
+* Extract ``awk.exe`` from the downloaded zip to any folder within your PATH so that Sublime Text can run it.
+
+.. _Gawk for Windows: http://gnuwin32.sourceforge.net/packages/gawk.htm
+
 Support
 =======
 
